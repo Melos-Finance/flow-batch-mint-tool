@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@onflow/config": "^0.0.2",
+    "@onflow/fcl": "^0.0.77",
+    "bull": "^3.29.2",
+    "elliptic": "^6.5.4",
+    "flow-cadut": "^0.1.10-alpha.1",
+    "sha3": "^2.1.4"
+  },
+  "scripts": {
+    "mint": "babel-node ./src/index.js",
+    "read": "babel-node ./src/reader.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "dotenv": "^10.0.0"
+  }
+}
