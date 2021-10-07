@@ -23,14 +23,14 @@ yarn
 2. run shell script to add proposal keys to your account
 
 ```
+flow emulator -v --transaction-expiry 600
+
 ./augment_proposal_key.sh <n>
 ```
 
 3. run example
 
 ```
-flow emulator -v --transaction-expiry 600
-
 yarn mint
 ```
 
