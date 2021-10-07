@@ -29,6 +29,8 @@ yarn
 3. run example
 
 ```
+flow emulator -v --transaction-expiry 600
+
 yarn mint
 ```
 
